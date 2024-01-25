@@ -1,0 +1,4 @@
+name: economy
+version: 1.0.1-SNAPSHOT
+main: com.github.akafasty.economy.EconomyBukkitFrame
+author: akafasty
