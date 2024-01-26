@@ -9,7 +9,7 @@ public interface IEconomyUserRepository {
 
     void shutdown();
 
-    @NotNull IEconomyUser selectOne(String username);
+    @Nullable IEconomyUser selectOne(String username);
 
     void insertOne(IEconomyUser user);
 
