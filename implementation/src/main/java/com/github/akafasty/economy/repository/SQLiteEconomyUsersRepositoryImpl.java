@@ -87,7 +87,7 @@ public class SQLiteEconomyUsersRepositoryImpl implements IEconomyUserRepository 
     }
 
     @Override
-    public @NotNull IEconomyUser selectOne(String username) {
+    public @Nullable IEconomyUser selectOne(String username) {
 
         try (PreparedStatement statement = connection.prepareStatement("select * from economy_users where username = ?;")) {
 
